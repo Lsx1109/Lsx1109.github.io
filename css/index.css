@@ -1400,7 +1400,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
+  background: url(https://z1.ax1x.com/2023/12/03/piyMAOJ.png);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -5229,7 +5229,7 @@ mjx-container[display],
   border-radius: 5px !important;
 }
 [data-theme="dark"] #web_bg {
-  background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
+  background: url(https://z1.ax1x.com/2023/12/03/piyMAOJ.png);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -5237,14 +5237,14 @@ mjx-container[display],
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
+    background: url(https://z1.ax1x.com/2023/12/03/piyMAOJ.png);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
+    background: url(https://z1.ax1x.com/2023/12/03/piyMAOJ.png);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
@@ -7708,13 +7708,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://s2.loli.net/2023/12/03/1f5FDaSP8lcRCrG.jpg);
+  background-image: url(https://z1.ax1x.com/2023/12/03/piyMJ0A.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://s2.loli.net/2023/12/03/1f5FDaSP8lcRCrG.jpg);
+  background-image: url(https://z1.ax1x.com/2023/12/03/piyMJ0A.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -8231,25 +8231,6 @@ a:hover {
   background: rgba(25, 25, 25, 0.95) !important;
 }
 
-/* 帧率检测 */
-#fps {
-  position: fixed;
-  left: 10px;
-  bottom: 10px;
-  z-index: 1919810;
-}
-[data-theme="light"] #fps {
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: var(--backdrop-filter);
-  padding: 4px;
-  border-radius: 4px;
-}
-[data-theme="dark"] #fps {
-  background-color: rgba(0, 0, 0, 0.72);
-  backdrop-filter: var(--backdrop-filter);
-  padding: 4px;
-  border-radius: 4px;
-}
 
 /* 侧边栏 */
 div#rightside {
