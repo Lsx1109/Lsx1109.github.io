@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title>test</title>
+      <title>三角形分类</title>
       <link href="/posts/d87f7e0c.html"/>
       <url>/posts/d87f7e0c.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1>【深基3.习8】三角形分类</h1><h2 id="题目描述">题目描述</h2><p>给出三条线段 $a,b,c$ 的长度，均是不大于 $10000$ 的正整数。打算把这三条线段拼成一个三角形，它可以是什么三角形呢？</p><ul><li>如果三条线段不能组成一个三角形，输出<code>Not triangle</code>；</li><li>如果是直角三角形，输出<code>Right triangle</code>；</li><li>如果是锐角三角形，输出<code>Acute triangle</code>；</li><li>如果是钝角三角形，输出<code>Obtuse triangle</code>；</li><li>如果是等腰三角形，输出<code>Isosceles triangle</code>；</li><li>如果是等边三角形，输出<code>Equilateral triangle</code>。</li></ul><p>如果这个三角形符合以上多个条件，请按以上顺序分别输出，并用换行符隔开。</p><h2 id="输入格式">输入格式</h2><p>输入 3 个整数 $a$、$b$ 和 $c$。</p><h2 id="输出格式">输出格式</h2><p>输出若干行判定字符串。</p><h2 id="样例-1">样例 #1</h2><h3 id="样例输入-1">样例输入 #1</h3><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">3 </span><span class="number">3</span> <span class="number">3</span></span><br></pre></td></tr></table></figure><h3 id="样例输出-1">样例输出 #1</h3><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Acute <span class="built_in">triangle</span></span><br><span class="line">Isosceles <span class="built_in">triangle</span></span><br><span class="line">Equilateral <span class="built_in">triangle</span></span><br></pre></td></tr></table></figure><h2 id="样例-2">样例 #2</h2><h3 id="样例输入-2">样例输入 #2</h3><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">3 </span><span class="number">4</span> <span class="number">5</span></span><br></pre></td></tr></table></figure><h3 id="样例输出-2">样例输出 #2</h3><figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Right</span> triangle</span><br></pre></td></tr></table></figure><h2 id="样例-3">样例 #3</h2><h3 id="样例输入-3">样例输入 #3</h3><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">6 </span><span class="number">10</span> <span class="number">6</span></span><br></pre></td></tr></table></figure><h3 id="样例输出-3">样例输出 #3</h3><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Obtuse <span class="built_in">triangle</span></span><br><span class="line">Isosceles <span class="built_in">triangle</span></span><br></pre></td></tr></table></figure><h2 id="样例-4">样例 #4</h2><h3 id="样例输入-4">样例输入 #4</h3><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">1 </span><span class="number">14</span> <span class="number">5</span></span><br></pre></td></tr></table></figure><h3 id="样例输出-4">样例输出 #4</h3><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">Not triangle</span></span><br></pre></td></tr></table></figure><h2 id="提示">提示</h2><p>当两短边的平方和大于一长边的平方，说明是锐角三角形。</p><p>当两短边的平方和等于一长边的平方，说明是直角三角形。</p><p>当两短边的平方和小于一长边的平方，说明是钝角三角形。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 算法题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 分支结构 </tag>
+            
+            <tag> 普及 </tag>
+            
+        </tags>
       
     </entry>
     
