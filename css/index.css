@@ -406,6 +406,13 @@ canvas:not(#ribbon-canvas),
   -ms-animation: scroll-down-effect 1.5s infinite;
   animation: scroll-down-effect 1.5s infinite;
 }
+.avatar-img {
+  -webkit-animation: avatar_turn_around 2s linear infinite;
+  -moz-animation: avatar_turn_around 2s linear infinite;
+  -o-animation: avatar_turn_around 2s linear infinite;
+  -ms-animation: avatar_turn_around 2s linear infinite;
+  animation: avatar_turn_around 2s linear infinite;
+}
 .reward-main {
   -webkit-animation: donate_effcet 0.3s 0.1s ease both;
   -moz-animation: donate_effcet 0.3s 0.1s ease both;
@@ -1393,7 +1400,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: var(themes\butterfly\source\img\v2-643ba1284aa3c387dba452e83b277be2_1440w.png);
+  background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -5222,7 +5229,7 @@ mjx-container[display],
   border-radius: 5px !important;
 }
 [data-theme="dark"] #web_bg {
-  background: var(themes\butterfly\source\img\v2-643ba1284aa3c387dba452e83b277be2_1440w.png);
+  background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -5230,14 +5237,14 @@ mjx-container[display],
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: var(--mobileday-bg);
+    background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: var(--mobilenight-bg);
+    background: url(https://s2.loli.net/2023/12/03/63ypWxQVUgaXCmt.png);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
@@ -7701,13 +7708,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://s2.loli.net/2023/12/03/1f5FDaSP8lcRCrG.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  background-image: url(https://s2.loli.net/2023/12/03/1f5FDaSP8lcRCrG.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7756,6 +7763,18 @@ button#go-up:hover #percent {
 #article-container .aplayer {
   font-family: var(--global-font) !important;
 }
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+
 
 /* 背景图片链接输入框placeholder*/
 input#pic-link::-webkit-input-placeholder {
