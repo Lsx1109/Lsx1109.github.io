@@ -6,7 +6,7 @@
   <link href="https://lsx1109.github.io/atom.xml" rel="self"/>
   
   <link href="https://lsx1109.github.io/"/>
-  <updated>2023-12-03T09:01:54.210Z</updated>
+  <updated>2023-12-04T07:59:59.197Z</updated>
   <id>https://lsx1109.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>上学迟到</title>
+    <link href="https://lsx1109.github.io/posts/5b0a6c07.html"/>
+    <id>https://lsx1109.github.io/posts/5b0a6c07.html</id>
+    <published>2023-12-04T07:57:37.000Z</published>
+    <updated>2023-12-04T07:59:59.197Z</updated>
+    
+    <content type="html"><![CDATA[<h1>【深基2.例12】上学迟到</h1><h2 id="题目描述">题目描述</h2><p>学校和 yyy 的家之间的距离为 $s$ 米，而 yyy 以 $v$ 米每分钟的速度匀速走向学校。</p><p>在上学的路上，yyy 还要额外花费 $10$ 分钟的时间进行垃圾分类。</p><p>学校要求必须在上午 $\textrm{8:00}$  到达，请计算在不迟到的前提下，yyy 最晚能什么时候出门。</p><p>由于路途遥远，yyy 可能不得不提前一点出发，但是提前的时间不会超过一天。</p><h2 id="输入格式">输入格式</h2><p>一行两个正整数 $s,v$，分别代表路程和速度。</p><h2 id="输出格式">输出格式</h2><p>输出一个 $24$ 小时制下的时间，代表 yyy 最晚的出发时间。</p><p>输出格式为 $\texttt{HH:MM}$，分别代表该时间的时和分。必须输出两位，不足前面补 $0$。</p><h2 id="样例-1">样例 #1</h2><h3 id="样例输入-1">样例输入 #1</h3><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">100 </span><span class="number">99</span></span><br></pre></td></tr></table></figure><h3 id="样例输出-1">样例输出 #1</h3><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">07</span>:<span class="number">48</span></span><br></pre></td></tr></table></figure><h2 id="提示">提示</h2><p>对于 $100%$ 的数据，$1 \le s,v \le 10^4$。</p>]]></content>
+    
+    
+    <summary type="html">P5707 【深基2.例12】上学迟到</summary>
+    
+    
+    
+    <category term="算法题" scheme="https://lsx1109.github.io/categories/%E7%AE%97%E6%B3%95%E9%A2%98/"/>
+    
+    
+    <category term="普及" scheme="https://lsx1109.github.io/tags/%E6%99%AE%E5%8F%8A/"/>
+    
+    <category term="顺序结构" scheme="https://lsx1109.github.io/tags/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>三角形分类</title>
