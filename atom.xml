@@ -6,7 +6,7 @@
   <link href="https://lsx1109.github.io/atom.xml" rel="self"/>
   
   <link href="https://lsx1109.github.io/"/>
-  <updated>2023-12-05T14:19:31.205Z</updated>
+  <updated>2023-12-05T14:19:52.375Z</updated>
   <id>https://lsx1109.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lsx1109.github.io/posts/5e3e74b.html"/>
     <id>https://lsx1109.github.io/posts/5e3e74b.html</id>
     <published>2023-12-05T14:18:46.000Z</published>
-    <updated>2023-12-05T14:19:31.205Z</updated>
+    <updated>2023-12-05T14:19:52.375Z</updated>
     
     <content type="html"><![CDATA[<h1>【深基4.例13】质数口袋</h1><h2 id="题目描述">题目描述</h2><p>小 A 有一个质数口袋，里面可以装各个质数。他从 $2$ 开始，依次判断各个自然数是不是质数，如果是质数就会把这个数字装入口袋。</p><p>口袋的负载量就是口袋里的所有数字之和。</p><p>但是口袋的承重量有限，装的质数的和不能超过 $L$。给出 $L$，请问口袋里能装下几个质数？将这些质数从小往大输出，然后输出最多能装下的质数的个数，数字之间用换行隔开。</p><h2 id="输入格式">输入格式</h2><p>一行一个正整数 $L$。</p><h2 id="输出格式">输出格式</h2><p>将这些质数从小往大输出，然后输出最多能装下的质数个数，所有数字之间有一空行。</p><h2 id="样例-1">样例 #1</h2><h3 id="样例输入-1">样例输入 #1</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">100</span><br></pre></td></tr></table></figure><h3 id="样例输出-1">样例输出 #1</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">3</span><br><span class="line">5</span><br><span class="line">7</span><br><span class="line">11</span><br><span class="line">13</span><br><span class="line">17</span><br><span class="line">19</span><br><span class="line">23</span><br><span class="line">9</span><br></pre></td></tr></table></figure><h2 id="样例-2">样例 #2</h2><h3 id="样例输入-2">样例输入 #2</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure><h3 id="样例输出-2">样例输出 #2</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">3</span><br><span class="line">2</span><br></pre></td></tr></table></figure><h2 id="样例-3">样例 #3</h2><h3 id="样例输入-3">样例输入 #3</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">11</span><br></pre></td></tr></table></figure><h3 id="样例输出-3">样例输出 #3</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">3</span><br><span class="line">5</span><br><span class="line">3</span><br></pre></td></tr></table></figure><h2 id="提示">提示</h2><p>数据保证，$1 \le L \le {10}^5$。</p>]]></content>
     
@@ -44,7 +44,7 @@
     <link href="https://lsx1109.github.io/posts/9e9b065a.html"/>
     <id>https://lsx1109.github.io/posts/9e9b065a.html</id>
     <published>2023-12-05T14:17:31.000Z</published>
-    <updated>2023-12-05T14:18:22.814Z</updated>
+    <updated>2023-12-05T14:19:52.375Z</updated>
     
     <content type="html"><![CDATA[<h1>[NOIP1998 普及组] 阶乘之和</h1><h2 id="题目描述">题目描述</h2><p>用高精度计算出 $S = 1! + 2! + 3! + \cdots + n!$（$n \le 50$）。</p><p>其中 <code>!</code> 表示阶乘，定义为 $n!=n\times (n-1)\times (n-2)\times \cdots \times 1$。例如，$5! = 5 \times 4 \times 3 \times 2 \times 1=120$。</p><h2 id="输入格式">输入格式</h2><p>一个正整数 $n$。</p><h2 id="输出格式">输出格式</h2><p>一个正整数 $S$，表示计算结果。</p><h2 id="样例-1">样例 #1</h2><h3 id="样例输入-1">样例输入 #1</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure><h3 id="样例输出-1">样例输出 #1</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">9</span><br></pre></td></tr></table></figure><h2 id="提示">提示</h2><p><strong>【数据范围】</strong></p><p>对于 $100 %$ 的数据，$1 \le n \le 50$。</p><p><strong>【其他说明】</strong></p><p>注，《深入浅出基础篇》中使用本题作为例题，但是其数据范围只有 $n \le 20$，使用书中的代码无法通过本题。</p><p>如果希望通过本题，请继续学习第八章高精度的知识。</p><p>NOIP1998 普及组 第二题</p>]]></content>
     
